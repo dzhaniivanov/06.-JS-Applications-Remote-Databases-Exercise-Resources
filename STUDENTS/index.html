@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <table id="results">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Faculty Number</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC204FiDjnqYXeqlaHQxaK1XMKF5TmvowA",
+    authDomain: "students-test-264be.firebaseapp.com",
+    databaseURL: "https://students-test-264be.firebaseio.com",
+    projectId: "students-test-264be",
+    storageBucket: "students-test-264be.appspot.com",
+    messagingSenderId: "9593479738",
+    appId: "1:9593479738:web:24a5c19291c66827970b03"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
